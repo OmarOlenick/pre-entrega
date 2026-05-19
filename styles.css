@@ -1,0 +1,180 @@
+body {background-color: #C0EAF0;
+    background-image: url(https://img.magnific.com/foto-gratis/foto-debajo-agua-piscina_1219-17.jpg?semt=ais_hybrid&w=740&q=80);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+    
+
+}
+
+.main-grid {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.flex-container1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgba(0, 119, 182, 0.85);
+    align-items: center;
+    height: 6em;
+    list-style: none;
+}
+.icon {
+    font-size: 3em;
+    padding: 0.5em;
+    color: rgba(2, 48, 71, 0.9)
+}
+.title {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    font-family: "Playwrite GB S", cursive;
+    margin: auto;
+    font-size: 3em;
+}
+.account {
+    font-size: 3em;
+    padding: 0.5em;
+    color: rgba(2, 48, 71, 0.9)
+}
+
+.flex-container2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgba(2, 48, 71, 0.9);
+    height: 2.5em;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2em;
+}
+.fish {
+    margin: auto;
+}
+.plants {
+    margin: auto;
+}
+.decoration {
+    margin: auto;
+}
+.equipment {
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    height: 40em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    padding: 2em;
+    margin: 0.5em;
+    gap: 1em
+}
+.grid-container li {
+    color: #023047;
+}
+.pufferfish {
+    text-align: center;
+    background-image: url(https://img.wattpad.com/useravatar/Littlefufferfish.256.762127.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em 15em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #003f4a82;
+    border-radius: 15px;
+}
+.fox {
+    background-image: url(https://m.media-amazon.com/images/I/61N8-I+7H1L._AC_UF894,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em 15em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #003f4a82;
+    border-radius: 15px; 
+    text-align: center;
+}
+.filter {
+    background-image: url(https://ol.nice-cdn.com/upload/image/product/large/default/26650_38d520d3.256x256.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em 15em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #003f4a82;
+    border-radius: 15px;
+    text-align: center;
+}
+.gourami {
+    background-image: url(https://files.idyllic.app/files/static/68963?width=256&optimizer=image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em 15em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #003f4a82;
+    border-radius: 15px;
+    text-align: center;
+}
+.shrimp {
+    background-image: url(https://images.stockcake.com/public/8/2/a/82ae410b-db08-46da-9a7a-ebfdbd5d895e_medium/luminous-pink-shrimp-stockcake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em 15em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #003f4a82;
+    border-radius: 15px;
+    text-align: center;
+}
+.root {
+    background-image: url(https://www.coralvue.com/media/catalog/product/cache/d4ea6735f8ed87a57e8bd61f1e75c135/p/i/pinroot.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15em 15em;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #003f4a82;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact {
+    font-size: 3em;
+    margin: 0.5em;
+    color: rgba(2, 48, 71, 0.9)
+}
+
+.form {
+    font-size: 1.5em;
+    margin: 1em;
+    font-family: "Playwrite GB S", cursive;
+    color: #023047;
+}
+
+input[type="email"] {
+    padding: 0.7em 1em;
+    border: 2px solid #003f4a82;;
+    border-radius: 12px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    background-color:  rgba(255, 255, 255, 0.4);
+    color: #023047;
+}
+
+button {
+    margin-top: 0.5em;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 15px;
+    background-color: #0077B6;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
